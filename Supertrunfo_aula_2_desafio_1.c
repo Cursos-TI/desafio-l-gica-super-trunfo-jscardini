@@ -35,7 +35,7 @@ int main() {
     scanf(" %c", &estadoA);
     limparBuffer();
     printf("\nInforme o codigo da carta A ( ex: A01, B03) (de A a H) e (de 1 a 4 ):");
-    scanf(" %3s", &codCartaA);
+    scanf(" %s", &codCartaA);
     limparBuffer();
 
     printf("Informe o nome da cidade A: \n");
@@ -63,22 +63,22 @@ int main() {
     limparBuffer();
 
     printf("\nInforme o codigo da carta B ( ex: A01, B03) (de A a H) e (de 1 a 4 ): \n");
-    scanf(" %3s", &codCartaB);
+    scanf(" %s", &codCartaB);
     limparBuffer();
 
     printf("Informe o nome da cidade B: ");
     fgets(nomeCidadeB, 20, stdin);
     nomeCidadeB[strcspn(nomeCidadeB, "\n")] = 0;
 
-    printf("\nInforme o numero da populacao B: ");
+    printf("\nInforme o numero da populacao B: \n");
     scanf("%lu", &populationB);
     limparBuffer();
 
-    printf("Informe a area em metros quadrados B: ");
+    printf("Informe a area em metros quadrados B: \n");
     scanf("%lf", &areaB);
     limparBuffer();
 
-    printf("\nInforme o PIB da regiao B: exemplo: 300500000000.0");
+    printf("\nInforme o PIB da regiao B: exemplo: 300500000000.0\n");
     scanf("%lf", &PIBB);
     limparBuffer();
     
