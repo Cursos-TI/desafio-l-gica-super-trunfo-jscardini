@@ -66,7 +66,7 @@ int main() {
     scanf(" %s", &codCartaB);
     limparBuffer();
 
-    printf("Informe o nome da cidade B: ");
+    printf("Informe o nome da cidade B: \n");
     fgets(nomeCidadeB, 20, stdin);
     nomeCidadeB[strcspn(nomeCidadeB, "\n")] = 0;
 
